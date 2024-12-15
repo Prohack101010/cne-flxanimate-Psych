@@ -27,8 +27,8 @@ class FlxSymbol
 	@:allow(flxanimate.animate.FlxAnim)
 	var _curFrame:Int;
 
-	@:allow(flxanimate.FlxAnimate)
-	var _shootCallback:Bool;
+	//@:allow(flxanimate.FlxAnimate)
+	//var _shootCallback:Bool;
 
 	var _tick:Float;
 
@@ -359,7 +359,7 @@ class FlxSymbol
 	function set_curFrame(value:Int)
 	{
 		_curFrame = value;
-		_shootCallback = false;
+		//_shootCallback = false;
 
 		return value;
 	}

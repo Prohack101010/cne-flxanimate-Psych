@@ -4,7 +4,7 @@
     "license": "MIT",
     "tags": ["adobe","flash","animate","texture_sheet", "flixel"],
     "description": "Adobe Animate's texture atlases player for HaxeFlixel.",
-    "version": "3.0.4",
+    "version": "3.0.4-rc.1",
     "releasenote": "Add new functions to get elements and frame labels.",
     "contributors": ["DotWith","MrCheemsAndFriends"],
     "dependencies": {}
