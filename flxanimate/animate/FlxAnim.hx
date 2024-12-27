@@ -482,6 +482,8 @@ class FlxAnim implements IFlxDestroyable
 
 	function get_curSymbol()
 	{
+		if(curInstance == null) return null;
+		if(curInstance.symbol == null) return null;
 		return symbolDictionary.get(curInstance.symbol.name);
 	}
 
